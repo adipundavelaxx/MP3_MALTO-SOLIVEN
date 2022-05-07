@@ -1,0 +1,198 @@
+.form-containers {
+    margin: 100px auto;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(40, 40, 40, 0.37) 0%, rgba(17, 17, 17, 0.376) 100%);    
+  }
+  
+  
+  .logo-img{
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10rem;
+    padding-top: 4rem;
+    position:relative;
+    
+  }
+
+  .form-submit {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: -10px;
+    color: rgb(210, 33, 181);
+  }
+
+  .form-submit-1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.696);
+  }
+
+.submit-img{
+    height: 10rem;
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2rem;
+    padding-top: 2rem;
+  }
+
+  
+  /* .form-content-right {
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+  } */
+  
+  .form {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form h1 {
+    font-size: 1rem;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  /* .form-inputs-new p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+  } */
+
+  .form-inputs-new .text-email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+    display: inline-block;
+  }
+
+  .form-label {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    color: #fff;
+  }
+  
+  .form-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 100%;
+    border: none;
+  }
+  
+  .form-input::placeholder {
+    color: #595959;
+    font-size: 12px;
+  }
+  
+  .form-input-btn {
+    width: 80%;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 2px;
+    background: linear-gradient(
+      90deg,
+      rgb(255, 48, 255) 0%,
+      rgb(235, 242, 92) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .form-input-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(86, 255, 39) 0%,
+      rgb(12, 99, 250) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+  
+  .form-input-forgot {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .form-input-forgot a {
+    text-decoration: none;
+    color: rgb(220, 36, 150);
+    font-weight: 600;
+  }
+
+  .form-inputs-new{
+    width: 80%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid rgb(220, 36, 150);
+  }
+
+  .form-inputs-new i{
+    width: 20px;
+    float: left;
+    text-align: center;
+    color: white;
+  }
+
+  .form-inputs-new input, select, textarea{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+    color: rgba(255, 255, 255, 0.882);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .login{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    /* font-weight: 200; */
+    font-size: 12px;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 13px 0;
+    margin-top: 12rem;
+    /* transform: translate(-100%,-50%); */
+  }
